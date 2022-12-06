@@ -1,0 +1,11 @@
+body{
+    padding: 50px;
+}
+table,td,th{
+    padding: 10px;
+    border: 2px outset black;
+    border-collapse: collapse;
+}
+h1{
+    color: crimson;
+}

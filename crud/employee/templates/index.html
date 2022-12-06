@@ -1,0 +1,19 @@
+<head>  
+    <meta charset="UTF-8">  
+    <title>Index</title>  
+</head>  
+<body>  
+<form method="POST" class="post-form" action="/emp">  
+        {% csrf_token %}       
+<br>  
+    <h3>Enter Details</h3> 
+<table cellpadding="10px">  
+<tr><td>Employee Id:</td><td>{{ form.eid }} </td></tr> 
+<tr><td>Employee Name:</td><td>{{ form.ename }} </td></tr>
+<tr><td>Employee Email:</td><td>{{ form.eemail }} </td></tr> 
+<tr><td>Employee Contact:</td><td>{{ form.econtact }} </td></tr>
+<tr><td></td><td><button>Submit</button> </td></tr>
+</table>    
+</form>  
+</body>  
+</html>
